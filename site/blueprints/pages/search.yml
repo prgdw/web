@@ -1,0 +1,13 @@
+title: Pencarian
+
+icon: 🔎
+
+options:
+  changeSlug:
+    admin: true
+    editor: false
+  changeStatus: false
+  duplicate: false
+  delete: false
+  move: false
+  sort: false

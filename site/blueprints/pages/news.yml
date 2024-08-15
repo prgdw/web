@@ -1,0 +1,41 @@
+title: News
+
+icon: 📰
+
+options:
+  changeSlug:
+    admin: true
+    editor: false
+  changeStatus: false
+  duplicate: false
+  delete: false
+  move: false
+  sort: false
+
+tabs:
+  write:
+    icon: draft
+    columns:
+      left:
+        width: 1/2
+        sections:
+          drafts:
+            extends: sections/news
+            label: Drafts
+            status: draft
+      right:
+        width: 1/2
+        sections:
+          unlisted:
+            extends: sections/news
+            label: Unlisted
+            status: unlisted
+  published:
+    icon: dashboard
+    sections:
+      listed:
+        extends: sections/news
+        label: Published
+        status: listed
+        layout: cards
+        search: true

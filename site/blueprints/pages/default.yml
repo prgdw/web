@@ -1,0 +1,22 @@
+title: Default Page
+
+status:
+  draft:
+    label: Draft
+    text: The page is in draft mode and only visible for logged in editors or via secret link
+  listed:
+    label: Published
+    text: The page public is anyone
+
+columns:
+  - width: 2/3
+    fields:
+      body: fields/content
+
+  - width: 1/3
+    sections:
+      files:
+        type: files
+        max: 20
+        template: image
+

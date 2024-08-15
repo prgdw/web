@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /panel/
+Disallow: /site/
+Disallow: /content/
+Disallow: /kirby/
+Disallow: /assets/

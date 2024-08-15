@@ -1,0 +1,25 @@
+# Each file blueprint must have a title, the title may be different from the file name
+title: Image
+
+accept:
+  mime: image/jpeg, image/png, image/webp
+  maxsize: 5000000
+  minsize: 10000
+  maxwidth: 4920
+  maxheight: 3264
+  minwidth: 320
+  minheight: 320
+
+create:
+  width: 1200
+  format: jpg
+
+columns:
+  - width: 1/2
+    sections:
+      meta:
+        type: fields
+        fields:
+          alt:
+            label: Alternative Text
+            type: text

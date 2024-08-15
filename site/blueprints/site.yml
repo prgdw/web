@@ -1,0 +1,55 @@
+title: Site
+
+options:
+  changeTitle: false
+
+columns:
+  # left col
+  left:
+    width: 1/2
+    sections:
+      contents:
+        type: pages
+        create: false
+        template:
+          - news
+          - post
+          - gallery
+      pages:
+        type: pages
+        create: default
+        template:
+          - default
+          - home
+          - search
+  # right col
+  right:
+    width: 1/2
+    sections:
+      navigation:
+        type: fields
+        fields:
+          navMenu:
+            type: structure
+            label: Navigation Menu
+            columns:
+              items:
+                  width: 1/2
+            max: 6
+            fields:
+              info:
+                label: Info
+                type: info
+                text: |
+                  Field "Label" opsional untuk link biasa dan akan menggunakan judul halaman jika dibiarkan kosong. Jika diisi, label yang dimasukkan akan digunakan.
+
+                  Untuk dropdown, field "Label" wajib diisi sebagai label dropdown.
+              label:
+                type: text
+                icon: title
+                minlength: 3
+                maxlength: 10
+              items:
+                type: pages
+                max: 5
+                required: true

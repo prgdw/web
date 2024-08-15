@@ -1,0 +1,13 @@
+type: blocks
+label: Body
+required: true
+fieldsets:
+  - heading
+  - text
+  - list
+  - quote
+  - image
+  - video
+  - table
+  - markdown
+  - iframe

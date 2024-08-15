@@ -1,0 +1,15 @@
+title: Editor
+
+description: The editor has permissions to write, edit, and manage posts and pages, including uploading media.
+
+permissions:
+  access:
+    system: false
+    languages: false
+    users: false
+  files:
+    changeTemplate: false
+  user:
+    changeRole: false
+    delete: false
+    update: false

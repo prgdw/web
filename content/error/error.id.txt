@@ -1,0 +1,13 @@
+Title: Error
+
+----
+
+Text: Oops! Halaman Tidak Ditemukan
+
+----
+
+Message: Maaf, halaman yang Anda cari tidak dapat ditemukan. Mungkin tautan yang Anda klik rusak atau halaman tersebut telah dihapus.
+
+----
+
+Uuid: j48mzn5CdPkW6eH6

@@ -1,0 +1,10 @@
+type: pages
+label: Post
+info: "{{ page.published }}"
+template: post
+empty: No posts yet
+sortBy: date desc
+image:
+  query: page.cover
+  cover: true
+  ratio: 3/2

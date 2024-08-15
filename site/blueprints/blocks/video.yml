@@ -1,0 +1,21 @@
+name: field.blocks.video.name
+icon: video
+preview: video
+fields:
+  location:
+    label: field.blocks.video.location
+    type: radio
+    columns: 2
+    default: "web"
+    options:
+      web: "{{ t('field.blocks.image.location.external') }}"
+  url:
+    label: field.blocks.video.url.label
+    type: url
+    placeholder: field.blocks.video.url.placeholder
+    when:
+      location: web
+  caption:
+    label: field.blocks.video.caption
+    type: writer
+    inline: true

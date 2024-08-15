@@ -1,0 +1,43 @@
+title: Post
+
+num: date
+
+options:
+  changeSlug: false
+
+create:
+  slug: "{{ page.title }}"
+
+columns:
+  - width: 1/3
+    # This second column holds a fields section with multiple fields
+    # More about fields sections: https://getkirby.com/docs/reference/panel/sections/fields
+    sections:
+      meta:
+        type: fields
+        fields:
+          cover: fields/cover
+          tags: true
+          date:
+            type: date
+            default: now
+            display: DD/MM/YYYY
+            time:
+              step: 1
+            required: true
+            translate: false
+          author:
+            type: users
+            default: true
+            disabled: true
+            link: false
+      files:
+        type: files
+        max: 20
+        template: image
+
+  - width: 2/3
+    fields:
+      body: fields/content
+
+

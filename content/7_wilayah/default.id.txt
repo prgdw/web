@@ -1,0 +1,9 @@
+Title: Wilayah
+
+----
+
+Body: [{"content":{"title":"Maps","source":"https://www.google.com/maps/d/embed?mid=1YRwn8CYoHr_jz0j94Wh-GtSdvOgHg8M&ehbc=2E312F","sizing":"Height","height":480,"ratio":"16/9"},"id":"97281f08-e387-475b-b67b-d76e5b15110d","isHidden":false,"type":"iframe"},{"content":{"text":"<p>Data yang ditampilkan pada halaman ini diperoleh dari situs <a href=\"https://geoportal.slemankab.go.id/layers/geonode_data:geonode:a__3404_5KB_AR_BATAS_KAL_BALECATUR_2022\" target=\"_blank\" title=\"Geoportal Sleman\">Geoportal Sleman</a>.</p>"},"id":"e2bf14d8-42cb-4906-958e-29c5fdf0dd66","isHidden":false,"type":"text"}]
+
+----
+
+Uuid: D44uBeC2bQ1AANQa

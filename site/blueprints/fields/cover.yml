@@ -1,0 +1,11 @@
+type: files
+layout: cards
+info: "{{ file.dimensions }}"
+required: true
+multiple: false
+translate: false
+uploads:
+  template: image
+image:
+  cover: true
+  ratio: 3/2
