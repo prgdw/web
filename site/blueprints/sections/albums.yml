@@ -1,6 +1,5 @@
 type: pages
 label: Album
-size: small
 info: "{{ page.images.count }} image(s)"
 layout: cards
 template: album

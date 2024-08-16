@@ -12,26 +12,22 @@ options:
   move: false
   sort: false
 
-tabs:
-  write:
-    icon: draft
-    columns:
-      left:
-        width: 1/2
-        sections:
-          drafts:
-            extends: sections/news
-            label: Drafts
-            status: draft
-      right:
-        width: 1/2
-        sections:
-          unlisted:
-            extends: sections/news
-            label: Unlisted
-            status: unlisted
-  published:
-    icon: dashboard
+columns:
+  left:
+    width: 1/2
+    sections:
+      drafts:
+        extends: sections/news
+        label: Drafts
+        status: draft
+  right:
+    width: 1/2
+    sections:
+      unlisted:
+        extends: sections/news
+        label: Unlisted
+        status: unlisted
+  bottom:
     sections:
       listed:
         extends: sections/news
