@@ -1,7 +1,7 @@
 <?php
 
 return function ($page) {
-    $gallery = collection('gallery');
+    $gallery = collection('galeri');
 
     $tag = param('tag');
     if (empty($tag) === false) {

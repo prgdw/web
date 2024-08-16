@@ -1,7 +1,7 @@
 <?php
 
 return function ($page) {
-    $news = collection('news');
+    $news = collection($page->uri());
 
     $tag = param('tag');
     if (empty($tag) === false) {

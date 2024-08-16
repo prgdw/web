@@ -2,9 +2,9 @@
 
 return function ($page) {
 
-    $news = collection('news');
+    $news = collection('berita');
     $pojok = collection('pojok');
-    $gallery = collection('gallery');
+    $gallery = collection('galeri');
 
     return [
         'featured' => $news->first(),

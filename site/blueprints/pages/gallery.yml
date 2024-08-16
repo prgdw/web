@@ -3,10 +3,9 @@ title: Gallery
 icon: 🖼
 
 options:
-  changeSlug:
-    admin: true
-    editor: false
+  changeSlug: false
   changeStatus: false
+  changeTitle: false
   duplicate: false
   delete: false
   move: false
